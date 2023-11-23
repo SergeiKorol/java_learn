@@ -8,3 +8,11 @@ compileTestJava.options.encoding = 'windows-1251'
 tasks.withType(JavaCompile) {
     options.encoding = 'windows-1251'
 }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:6.9.10'
+}
